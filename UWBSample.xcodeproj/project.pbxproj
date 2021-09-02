@@ -7,15 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90173A626DF16D600CD03E4 /* BluetoothCenteralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90173A526DF16D600CD03E4 /* BluetoothCenteralViewModel.swift */; };
+		A90173A826DF18B200CD03E4 /* BluetoothListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90173A726DF18B200CD03E4 /* BluetoothListView.swift */; };
+		A90173AA26DF21D300CD03E4 /* BluetoothSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90173A926DF21D300CD03E4 /* BluetoothSettingView.swift */; };
+		A90173AC26DF22D000CD03E4 /* BluetoothPeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90173AB26DF22D000CD03E4 /* BluetoothPeripheralViewModel.swift */; };
+		A90173AE26DF65E100CD03E4 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90173AD26DF65E100CD03E4 /* BluetoothView.swift */; };
+		A95942E826E04EC900E1E0B4 /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95942E726E04EC900E1E0B4 /* TransferService.swift */; };
+		A989991826DC6F0000899A0D /* ConfigureBeaconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989991726DC6F0000899A0D /* ConfigureBeaconView.swift */; };
+		A989991B26DC8C7A00899A0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989991A26DC8C7A00899A0D /* MainView.swift */; };
+		A989991D26DC8CE500899A0D /* BeaconListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989991C26DC8CE500899A0D /* BeaconListView.swift */; };
+		A989991F26DC8E5D00899A0D /* BeaconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989991E26DC8E5D00899A0D /* BeaconViewModel.swift */; };
+		A989992226DC996800899A0D /* UWBListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989992126DC996800899A0D /* UWBListView.swift */; };
+		A9A86DC626DDBDE900F517B1 /* UWBSampleAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A86DC526DDBDE900F517B1 /* UWBSampleAppClipApp.swift */; };
+		A9A86DC826DDBDE900F517B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A86DC726DDBDE900F517B1 /* ContentView.swift */; };
+		A9A86DCA26DDBDEA00F517B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A86DC926DDBDEA00F517B1 /* Assets.xcassets */; };
+		A9A86DCD26DDBDEA00F517B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A86DCC26DDBDEA00F517B1 /* Preview Assets.xcassets */; };
+		A9A86DD226DDBDEA00F517B1 /* UWBSampleAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = A9A86DC326DDBDE900F517B1 /* UWBSampleAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9A86DD726DDBFF000F517B1 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F04DBB26D8BEE30052D33F /* Debug.swift */; };
+		A9F04DBA26D8BBBD0052D33F /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F04DB926D8BBBD0052D33F /* LocationViewModel.swift */; };
+		A9F04DBC26D8BEE30052D33F /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F04DBB26D8BEE30052D33F /* Debug.swift */; };
+		A9F04DC026D8C1260052D33F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F04DBF26D8C1260052D33F /* MapKit.framework */; };
 		A9F8631426D77898001206E8 /* UWBSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8631326D77898001206E8 /* UWBSampleApp.swift */; };
 		A9F8631626D77898001206E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8631526D77898001206E8 /* ContentView.swift */; };
 		A9F8631826D77899001206E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F8631726D77899001206E8 /* Assets.xcassets */; };
 		A9F8631B26D77899001206E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F8631A26D77899001206E8 /* Preview Assets.xcassets */; };
 		A9F8631D26D77899001206E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8631C26D77899001206E8 /* Persistence.swift */; };
 		A9F8632026D77899001206E8 /* UWBSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9F8631E26D77899001206E8 /* UWBSample.xcdatamodeld */; };
+		A9F8632826D778E7001206E8 /* NearByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8632726D778E7001206E8 /* NearByViewModel.swift */; };
+		A9F8632A26D7799D001206E8 /* NearByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8632926D7799D001206E8 /* NearByView.swift */; };
+		A9F8632C26D779A6001206E8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8632B26D779A6001206E8 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A9A86DD026DDBDEA00F517B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F8630826D77898001206E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A86DC226DDBDE900F517B1;
+			remoteInfo = UWBSampleAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9A86DD326DDBDEA00F517B1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				A9A86DD226DDBDEA00F517B1 /* UWBSampleAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A90173A526DF16D600CD03E4 /* BluetoothCenteralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCenteralViewModel.swift; sourceTree = "<group>"; };
+		A90173A726DF18B200CD03E4 /* BluetoothListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothListView.swift; sourceTree = "<group>"; };
+		A90173A926DF21D300CD03E4 /* BluetoothSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSettingView.swift; sourceTree = "<group>"; };
+		A90173AB26DF22D000CD03E4 /* BluetoothPeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPeripheralViewModel.swift; sourceTree = "<group>"; };
+		A90173AD26DF65E100CD03E4 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		A95942E726E04EC900E1E0B4 /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		A989991726DC6F0000899A0D /* ConfigureBeaconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureBeaconView.swift; sourceTree = "<group>"; };
+		A989991A26DC8C7A00899A0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A989991C26DC8CE500899A0D /* BeaconListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconListView.swift; sourceTree = "<group>"; };
+		A989991E26DC8E5D00899A0D /* BeaconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconViewModel.swift; sourceTree = "<group>"; };
+		A989992126DC996800899A0D /* UWBListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWBListView.swift; sourceTree = "<group>"; };
+		A9A86DC326DDBDE900F517B1 /* UWBSampleAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWBSampleAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A86DC526DDBDE900F517B1 /* UWBSampleAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWBSampleAppClipApp.swift; sourceTree = "<group>"; };
+		A9A86DC726DDBDE900F517B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9A86DC926DDBDEA00F517B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A86DCC26DDBDEA00F517B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9A86DCE26DDBDEA00F517B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A86DCF26DDBDEA00F517B1 /* UWBSampleAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UWBSampleAppClip.entitlements; sourceTree = "<group>"; };
+		A9F04DB926D8BBBD0052D33F /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		A9F04DBB26D8BEE30052D33F /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		A9F04DBD26D8C1040052D33F /* UWBSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UWBSample.entitlements; sourceTree = "<group>"; };
+		A9F04DBF26D8C1260052D33F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A9F8631026D77898001206E8 /* UWBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F8631326D77898001206E8 /* UWBSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWBSampleApp.swift; sourceTree = "<group>"; };
 		A9F8631526D77898001206E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,24 +93,117 @@
 		A9F8631C26D77899001206E8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A9F8631F26D77899001206E8 /* UWBSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UWBSample.xcdatamodel; sourceTree = "<group>"; };
 		A9F8632126D77899001206E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F8632726D778E7001206E8 /* NearByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewModel.swift; sourceTree = "<group>"; };
+		A9F8632926D7799D001206E8 /* NearByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByView.swift; sourceTree = "<group>"; };
+		A9F8632B26D779A6001206E8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9F8630D26D77898001206E8 /* Frameworks */ = {
+		A9A86DC026DDBDE900F517B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9F8630D26D77898001206E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F04DC026D8C1260052D33F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A90173A426DF15C800CD03E4 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A90173A526DF16D600CD03E4 /* BluetoothCenteralViewModel.swift */,
+				A90173AB26DF22D000CD03E4 /* BluetoothPeripheralViewModel.swift */,
+				A90173A726DF18B200CD03E4 /* BluetoothListView.swift */,
+				A90173A926DF21D300CD03E4 /* BluetoothSettingView.swift */,
+				A90173AD26DF65E100CD03E4 /* BluetoothView.swift */,
+				A95942E726E04EC900E1E0B4 /* TransferService.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		A989991926DC8AED00899A0D /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				A989992026DC916F00899A0D /* Model */,
+				A989991726DC6F0000899A0D /* ConfigureBeaconView.swift */,
+				A989991C26DC8CE500899A0D /* BeaconListView.swift */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		A989992026DC916F00899A0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A989991E26DC8E5D00899A0D /* BeaconViewModel.swift */,
+				A9F04DB926D8BBBD0052D33F /* LocationViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A989992326DC997000899A0D /* UWB */ = {
+			isa = PBXGroup;
+			children = (
+				A989992426DC99A500899A0D /* Model */,
+				A989992126DC996800899A0D /* UWBListView.swift */,
+				A9F8632926D7799D001206E8 /* NearByView.swift */,
+				A9F8632B26D779A6001206E8 /* ErrorView.swift */,
+			);
+			path = UWB;
+			sourceTree = "<group>";
+		};
+		A989992426DC99A500899A0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9F8632726D778E7001206E8 /* NearByViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9A86DC426DDBDE900F517B1 /* UWBSampleAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				A9A86DC526DDBDE900F517B1 /* UWBSampleAppClipApp.swift */,
+				A9A86DC726DDBDE900F517B1 /* ContentView.swift */,
+				A9A86DC926DDBDEA00F517B1 /* Assets.xcassets */,
+				A9A86DCE26DDBDEA00F517B1 /* Info.plist */,
+				A9A86DCF26DDBDEA00F517B1 /* UWBSampleAppClip.entitlements */,
+				A9A86DCB26DDBDEA00F517B1 /* Preview Content */,
+			);
+			path = UWBSampleAppClip;
+			sourceTree = "<group>";
+		};
+		A9A86DCB26DDBDEA00F517B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9A86DCC26DDBDEA00F517B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9F04DBE26D8C1260052D33F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9F04DBF26D8C1260052D33F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9F8630726D77898001206E8 = {
 			isa = PBXGroup;
 			children = (
 				A9F8631226D77898001206E8 /* UWBSample */,
+				A9A86DC426DDBDE900F517B1 /* UWBSampleAppClip */,
 				A9F8631126D77898001206E8 /* Products */,
+				A9F04DBE26D8C1260052D33F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				A9F8631026D77898001206E8 /* UWBSample.app */,
+				A9A86DC326DDBDE900F517B1 /* UWBSampleAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +219,14 @@
 		A9F8631226D77898001206E8 /* UWBSample */ = {
 			isa = PBXGroup;
 			children = (
+				A90173A426DF15C800CD03E4 /* Bluetooth */,
+				A989992326DC997000899A0D /* UWB */,
+				A989991926DC8AED00899A0D /* Beacon */,
+				A9F04DBD26D8C1040052D33F /* UWBSample.entitlements */,
+				A9F04DBB26D8BEE30052D33F /* Debug.swift */,
 				A9F8631326D77898001206E8 /* UWBSampleApp.swift */,
 				A9F8631526D77898001206E8 /* ContentView.swift */,
+				A989991A26DC8C7A00899A0D /* MainView.swift */,
 				A9F8631726D77899001206E8 /* Assets.xcassets */,
 				A9F8631C26D77899001206E8 /* Persistence.swift */,
 				A9F8632126D77899001206E8 /* Info.plist */,
@@ -78,6 +247,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A9A86DC226DDBDE900F517B1 /* UWBSampleAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A86DD626DDBDEA00F517B1 /* Build configuration list for PBXNativeTarget "UWBSampleAppClip" */;
+			buildPhases = (
+				A9A86DBF26DDBDE900F517B1 /* Sources */,
+				A9A86DC026DDBDE900F517B1 /* Frameworks */,
+				A9A86DC126DDBDE900F517B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UWBSampleAppClip;
+			productName = UWBSampleAppClip;
+			productReference = A9A86DC326DDBDE900F517B1 /* UWBSampleAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		A9F8630F26D77898001206E8 /* UWBSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F8632426D77899001206E8 /* Build configuration list for PBXNativeTarget "UWBSample" */;
@@ -85,10 +271,12 @@
 				A9F8630C26D77898001206E8 /* Sources */,
 				A9F8630D26D77898001206E8 /* Frameworks */,
 				A9F8630E26D77898001206E8 /* Resources */,
+				A9A86DD326DDBDEA00F517B1 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A9A86DD126DDBDEA00F517B1 /* PBXTargetDependency */,
 			);
 			name = UWBSample;
 			productName = UWBSample;
@@ -101,9 +289,12 @@
 		A9F8630826D77898001206E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					A9A86DC226DDBDE900F517B1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					A9F8630F26D77898001206E8 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -123,11 +314,21 @@
 			projectRoot = "";
 			targets = (
 				A9F8630F26D77898001206E8 /* UWBSample */,
+				A9A86DC226DDBDE900F517B1 /* UWBSampleAppClip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A9A86DC126DDBDE900F517B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A86DCD26DDBDEA00F517B1 /* Preview Assets.xcassets in Resources */,
+				A9A86DCA26DDBDEA00F517B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9F8630E26D77898001206E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,20 +341,124 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A9A86DBF26DDBDE900F517B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A86DC826DDBDE900F517B1 /* ContentView.swift in Sources */,
+				A9A86DD726DDBFF000F517B1 /* Debug.swift in Sources */,
+				A9A86DC626DDBDE900F517B1 /* UWBSampleAppClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9F8630C26D77898001206E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9F8631D26D77899001206E8 /* Persistence.swift in Sources */,
+				A989992226DC996800899A0D /* UWBListView.swift in Sources */,
 				A9F8631626D77898001206E8 /* ContentView.swift in Sources */,
+				A90173AE26DF65E100CD03E4 /* BluetoothView.swift in Sources */,
+				A90173AC26DF22D000CD03E4 /* BluetoothPeripheralViewModel.swift in Sources */,
 				A9F8632026D77899001206E8 /* UWBSample.xcdatamodeld in Sources */,
+				A989991F26DC8E5D00899A0D /* BeaconViewModel.swift in Sources */,
+				A989991826DC6F0000899A0D /* ConfigureBeaconView.swift in Sources */,
 				A9F8631426D77898001206E8 /* UWBSampleApp.swift in Sources */,
+				A90173AA26DF21D300CD03E4 /* BluetoothSettingView.swift in Sources */,
+				A95942E826E04EC900E1E0B4 /* TransferService.swift in Sources */,
+				A9F04DBC26D8BEE30052D33F /* Debug.swift in Sources */,
+				A989991D26DC8CE500899A0D /* BeaconListView.swift in Sources */,
+				A9F8632C26D779A6001206E8 /* ErrorView.swift in Sources */,
+				A989991B26DC8C7A00899A0D /* MainView.swift in Sources */,
+				A9F8632826D778E7001206E8 /* NearByViewModel.swift in Sources */,
+				A9F8632A26D7799D001206E8 /* NearByView.swift in Sources */,
+				A90173A626DF16D600CD03E4 /* BluetoothCenteralViewModel.swift in Sources */,
+				A9F04DBA26D8BBBD0052D33F /* LocationViewModel.swift in Sources */,
+				A90173A826DF18B200CD03E4 /* BluetoothListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A9A86DD126DDBDEA00F517B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A86DC226DDBDE900F517B1 /* UWBSampleAppClip */;
+			targetProxy = A9A86DD026DDBDEA00F517B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A9A86DD426DDBDEA00F517B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = UWBSampleAppClip/UWBSampleAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UWBSampleAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = FP29HYJY6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UWBSampleAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UWBSample;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.doubled.UWBSample.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A86DD526DDBDEA00F517B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = UWBSampleAppClip/UWBSampleAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UWBSampleAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = FP29HYJY6Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UWBSampleAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UWBSample;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.doubled.UWBSample.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A9F8632226D77899001206E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,8 +578,10 @@
 		A9F8632526D77899001206E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UWBSample/UWBSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UWBSample/Preview Content\"";
 				DEVELOPMENT_TEAM = FP29HYJY6Q;
@@ -295,8 +602,10 @@
 		A9F8632626D77899001206E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UWBSample/UWBSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UWBSample/Preview Content\"";
 				DEVELOPMENT_TEAM = FP29HYJY6Q;
@@ -317,6 +626,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A9A86DD626DDBDEA00F517B1 /* Build configuration list for PBXNativeTarget "UWBSampleAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A86DD426DDBDEA00F517B1 /* Debug */,
+				A9A86DD526DDBDEA00F517B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9F8630B26D77898001206E8 /* Build configuration list for PBXProject "UWBSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
